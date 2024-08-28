@@ -47,3 +47,4 @@ gcc nome_do_arquivo.c -lm
 ```shell
 ./a.out
 ```
+
