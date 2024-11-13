@@ -1,16 +1,25 @@
 #include <stdio.h>
-#include <limits.h>
-#include <float.h>
 
 int main() {
-printf("O tipo 'double' aceita valores entre %E e %E\n.\n", DBL_MIN, DBL_MAX));  
-  printf("O tipo 'char' aceita valores entre %i e %i\n.\n", CHAR_MIN, CHAR_MAX);
-  printf("O tipo 'int' aceita valores entre %i e %i\n.\n", INT_MIN, INT_MAX);
-  printf("O tipo 'float' aceita valores entre %E e %E\n.\n", FLT_MIN, FLT_MAX));
-  printf("O tipo 'double' aceita valores entre %E e %E\n.\n", DBL_MIN, DBL_MAX));
+  int numero=0;
 
-return 0;
+  printf("entre com um numero");
+  int deu_certo = scanf("%i", &numero);
+
+  printf("voce digitou %i\n", numero);
+  printf("deu certo? %i\n", deu_certo);
+
+  int coord_x = 0;
+  int coord_y = 0;
+  printf("entre com as coordenadas do ponto: ");
+  deu_certo = scanf("%i, %i", &coord_x, &coord_y);
+
+  printf("voce digitou: %i, %i\n", coord_x, coord_y);
+printf("a leitura deu certo? %i\n", deu_certo);
 
 
-  
+
+    
+return 0;  
+
 }
